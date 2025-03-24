@@ -1,0 +1,15 @@
+{
+  "name": "coolstuff",
+  "version": "1.0.0",
+  "description": "Nah",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Me Myself",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "pug": "^3.0.3"
+  }
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/x-icon" href="../static/ico.png">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <title>#{title}</title>
+    style
+        include ../static/style.css
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Services</a></li>
+        </ul>
+    </nav>
+    h1 Iron Fitness
+
+    |  <div id="tagline"> #{content} </div>
+    <!--<p>
+    This is plain HTML using pug
+    </p><-->
+
+    
+
+    <form action="/" method="post" id="contact">
+        <div id="form">
+        <span>Register Now</span>
+        <input type="text" name="name" id="name" placeholder="Enter Your Name" required>
+        <input type="number" name="age" id="age" placeholder="Enter Your Age" required>
+        <label for="options" id="gend">Enter Your Gender:</label>
+        <select id="options" name="gender" place required>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select>
+        <textarea name="add" id="add" cols="90" rows="6" placeholder="Enter Your Address (optional)"></textarea>
+        <button type="submit" id="submit">Submit</button>
+        </div>
+    </form>
+</body>
+</html>
